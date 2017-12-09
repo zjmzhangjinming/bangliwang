@@ -1,0 +1,161 @@
+@meta "utf-8";
+.banner-event{height:80px;
+				background:black;
+				position:relative;}
+.event{height:80px;
+		background:url(head-bj.jpg) no-repeat;
+		position:relative;}
+		
+.event a{height:80px;
+		display:block;
+		width:100%;
+		}
+.event i{display:block;
+		width:20px;
+		height:20px;
+		position:absolute;
+		top:5px;
+		right:5px;
+		}		
+		/*以上是广告点击区*/
+.shortcut{height:30px;
+			background:#e3e4e5;
+			border-bottom:1px solid #ddd;
+			border-top:1px solid #ddd;
+			color:#999;
+			line-height:30px;}
+.shortcut li:hover ul{display:block;background:white;}
+.province{margin-left:200px;
+		  height:28px;
+		  line-height:28px;
+		  padding:0 7px;
+		 position:absolute;
+		  border:1px solid #e3e4e5;}	
+.province:hover {background:#fff;
+				 border:1px solid #ccc;
+				 border-bottom:2px solid #fff;}	
+			 
+.pro-ico {display:inline-block;
+			width:14px;
+			height:14px;
+			margin-top:8px;
+			background:url(x-1.gif) no-repeat;}		
+.pro-cens{width:300px;
+		  padding:10px;
+		  border:1px solid #ccc;
+		  position:absolute;top:27px;left:-1px;
+		  z-index:-1;
+		  }	
+.pro-cens li{float:left;
+			height:30px;
+			width:60px;
+			line-height:30px;
+			}	
+.pro-cens li span{float:left;
+					padding:0 8px;
+					height:30px;
+					line-height:30px;
+					margin-bottom:6px;}	
+.pro-cens li span:hover{
+					background:rgba(204,204,204,.3);
+					color:#c60c1b;}		
+.pro1{color:white;
+	  background:red;	}
+		  
+.shortcut li{float:left;}	  
+.topnav .spacer{width:1px;
+				height:10px;
+				background:#ccc;
+				margin:11px 5px 0 5px;
+				padding:0px;}
+.topnav a:hover{color:#c60c1b;}	
+.topnav span{color:red;}	
+/*我的京东*/	
+ .wd{width:280px;
+			padding:10px 0 10px 15px;
+			display:none;
+			border:1px solid #e3e4e5;}
+.wdjd{position:relative;}
+.wd{position:absolute;top:29px;left:-1px;
+	z-index:-1;}
+	.wdjd:hover{background:#fff;
+				 border:1px solid #ccc;
+				 border-bottom:2px solid #fff;}
+.wdjd>ul li{width:126px;
+			height:24px;
+			float:left;
+			}	
+.wdjd .division{width:280px;
+				height:1px;
+				background:#e3e4e5;
+				margin:10px -15px;}			
+.iconfont{
+	background:url(jt.gif) no-repeat;}		
+/*我的京东*/
+/*客服*/
+.clien-serve	{position:relative;}
+.clien-serve>ul{width:170px;
+				padding:10px 0;
+				border:1px solid #ccc;	
+				position:absolute;
+				top:29px;
+				right:0px;
+				display:none;
+				z-index:-1;}
+.clien-serve>ul li{width:70px;
+					height:24px;
+					padding-left:10px;}	
+.clien-serve .title{font-weight:bold;
+					color:#666;
+					width:170px;}	
+.clien-serve .division{width:150px;
+						height:1px;
+						background:#e3e4e5;
+margin:10px 0px;}
+.clien-serve:hover{background:#fff;
+				 border:1px solid #ccc;
+				 border-bottom:2px solid #fff;}
+/* 客服*/
+.webnav{position:relative;}
+				 .webnav>ul{position:absolute;
+			top:28px;
+			right:-85px;
+			width:1188px;
+			padding:15px 0;
+			border:1px solid #ccc;
+			z-index:-1;
+			display:none;
+			background:#white;}
+.webnav dt{font-weight:bold;
+			color:#666;}
+.webnav dl{width:255px;
+			
+			padding-left:20px;
+			border-right:1px solid #e3e4e5;}
+.webnav .webnav1{width:340px;}		
+.webnav dl li {width:85px;
+				height:24px;
+				line-height:24px;
+				margin:0 auto;}			
+.webnav:hover{background:#fff;
+				 border:1px solid #ccc;
+				 border-bottom:2px solid #fff;}	
+/*导航结束*/
+.phone-jd{position:relative;}
+.phone-jd .code{position:absolute;
+				top:30px;
+				right:0;
+				width:60px;
+				height:60px;
+				border:1px solid #e3e4e5;
+				background:url(code.png) no-repeat;
+				z-index:-5;}
+.phone-jd .code i{position:absolute;
+					top:-6px;
+					left:50%;
+					width:0;
+					height:0;
+					margin:-5px;
+					border:5px solid rgba(0,0,0,0);
+					border-bottom-color:white;
+					}				

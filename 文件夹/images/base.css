@@ -1,0 +1,30 @@
+.w100{width:100%;}
+	a{text-decoration:none;}
+	i{font-style:normal;
+		font-size:14px;
+		color:#4d4d4d;
+		text-align:center;
+		line-height:20px;
+		background:rgba(13,13,13,1)}
+body,ul,li,dl,dt,dd{margin:0; 
+		padding:0;}
+body{font: 12px/1.5 "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB",\\5b8b\4f53,sans-serif;}		
+.wrapper{width:1190px;
+		 margin:0 auto;
+		 }
+.fl{float:left;}
+.fr{float:right;}
+ul{list-style:none;}
+.dsn{display:none;}
+	a{color:#aba2b7}
+.pl7{padding-left:7px;}	
+.pr7{padding-right:7px;}
+.pd10{padding-right:10px;}	
+.pd20{padding-right:20px;}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.clearfix{zoom:1;}
+.webnav .bo-r0{border-right:0px;}
